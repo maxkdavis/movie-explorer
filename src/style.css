@@ -146,5 +146,6 @@ p {
         margin: 0;
         margin-right: 6rem;
         border-radius: 10px 0 0 10px;
+        width: auto;
     }
 }
