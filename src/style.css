@@ -16,7 +16,7 @@ body {
 
 h1.title {
     font-family: "Bebas Neue", cursive;
-    font-size: 6.4rem;
+    font-size: 5rem;
     text-align: center;
     background: #007991; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #78ffd6, #007991);
@@ -79,7 +79,7 @@ p {
 }
 
 .button:hover {
-    color: #000;
+    background-color: rgba(0, 121, 145, 0.8);
 }
 
 .card-list {
@@ -87,7 +87,7 @@ p {
 }
 
 .card {
-    padding: 2rem 4rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
     margin-bottom: 2rem;
@@ -96,7 +96,7 @@ p {
 
 .card--image {
     display: block;
-    margin: 0 auto;
+    width: 100%;
     /*Incase images stretch due to long descriptions*/
     object-fit: cover;
 }
@@ -113,6 +113,10 @@ p {
 /***********************DESKTOP LAYOUT ****************************/
 
 @media (min-width: 768px) {
+    h1.title {
+        font-size: 6.4rem;
+    }
+
     .form {
         grid-template-columns: auto 1fr auto;
         grid-gap: 1rem;
