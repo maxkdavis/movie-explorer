@@ -95,10 +95,7 @@ p {
 }
 
 .card--image {
-    display: block;
     width: 100%;
-    /*Incase images stretch due to long descriptions*/
-    object-fit: cover;
 }
 
 .card--title {
@@ -112,7 +109,7 @@ p {
 
 /***********************DESKTOP LAYOUT ****************************/
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     h1.title {
         font-size: 6.4rem;
     }
